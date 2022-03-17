@@ -1,0 +1,34 @@
+{
+  "name": "chat-widget",
+  "version": "1.0.0",
+  "description": "Чат, использующий socket.io",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baklai/chat-widget.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "socket.io"
+  ],
+  "author": "Dmitrii Baklai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baklai/chat-widget/issues"
+  },
+  "homepage": "https://github.com/baklai/chat-widget#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "socket.io": "^4.4.1"
+  }
+}
